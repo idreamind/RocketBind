@@ -1,5 +1,5 @@
 # RocketBind
-Signal/Slot technology, build on JavaScript and for JavaScript. (Like in Qt-framework.) 
+Signal/Slot technology, build on JavaScript and for JavaScript. (Like in Qt-framework, but in Node.js or io.js.) 
 
 Do you know Qt? If not - Qt is an amazing C++ framework, which provides SIGNAL/SLOT techology. 
 That techolology build on events, which called SIGNALs and handlers, called SLOTs.
