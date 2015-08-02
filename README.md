@@ -36,7 +36,7 @@ Step 1. Create slot.
 It can be any JS-function, with arguments, you whant (arguments are the daty-type for your futer signal).
 ```
     function Start( rocket ) {
-        rocket = rocket || UFO;
+        rocket = rocket || 'UFO';
         console.log("Start the", rocket);
     }
 ```
