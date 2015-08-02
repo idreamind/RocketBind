@@ -29,7 +29,7 @@ EMIT( signal );
 
 signal - is an object, with needed data. [type of "string", "object", "function", which returns "string" or "object"  ]
 
-For more examples - see folder ['examples'](/examples)
+For more examples - see the folder ['examples'](/examples)
 
 Step 1. Create slot. 
 
@@ -57,7 +57,7 @@ Step 4: Get results:
     "Start the UFO"
 ```
 
-For more examples - see folder ['examples'](/examples)
+For more examples - see the folder ['examples'](/examples)
 
 ## Injection:
 
@@ -82,4 +82,4 @@ BIND('rocket', Start);
 EMIT({rocket: 'Rocket'});
 ```
 
-For more examples - see folder ['examples'](/examples)
+For more examples - see the folder ['examples'](/examples)
