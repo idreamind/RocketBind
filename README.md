@@ -7,6 +7,8 @@ You can create as many signals, with any available data-type, as you need.
 And, also, you can connect one signal with many-many slots (they must have same data-type).
 I try to do something like that for JS.
 
+RocketBind - SIGNAL/SLOT for Node.js and io.js. 
+
 ## Philosophy of use:
 
 ### General overview of BIND:
@@ -25,7 +27,7 @@ SLOT - is a function, which arguments are same whit signal data
 EMIT( signal );
 ```
 
-signal - is an object, whit needed data. [type of "string", "object", "function", which returns "string" or "object"  ]
+signal - is an object, with needed data. [type of "string", "object", "function", which returns "string" or "object"  ]
 
 Step 1. Create slot. 
 
