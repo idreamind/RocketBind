@@ -29,6 +29,8 @@ EMIT( signal );
 
 signal - is an object, with needed data. [type of "string", "object", "function", which returns "string" or "object"  ]
 
+For more examples - see folder ['examples'](/examples)
+
 Step 1. Create slot. 
 
 It can be any JS-function, with arguments, you whant (arguments are the daty-type for your futer signal).
@@ -61,7 +63,7 @@ For more examples - see folder ['examples'](/examples)
 
 You can inject the RocketBind in two ways:
 
-1. As the object:
+As the object:
 ```
     var r = new require('../RocketBind');
 ```
@@ -70,7 +72,7 @@ Usage:
     r.BIND( 'rocket', Start );
     r.EMIT( { rocket: 'Rocket' } );
 ```
-2. As a part of a scope:
+As a part of a scope:
 ```
 require('../RocketBind');
 ```
