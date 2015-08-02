@@ -53,10 +53,7 @@ Step 4: Get results:
     "Start the UFO"
 ```
 
-For more examples - see folder 'examples'
-
-## Types:
-
+For more examples - see folder ['examples'](/examples)
 
 ## Injection:
 
@@ -81,4 +78,4 @@ BIND('rocket', Start);
 EMIT({rocket: 'Rocket'});
 ```
 
-For more examples - see folder 'examples'
+For more examples - see folder ['examples'](/examples)
